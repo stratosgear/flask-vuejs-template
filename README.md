@@ -30,7 +30,7 @@ The nuxt.js app is based in the minimal SPA example app taken straight out of th
 1. `pipenv install` to install all python dependencies
 1. `cd nuxt` to get to your nuxt app
 1. `npm install` to install all node js packages
-1. `npm run build` to build the SPA app/
+1. `npm run build` to build the SPA app.
 1. `cd ..` to get to the root of the Flask app
 1. `pipenv run python run.py` to start the Flask server
 
@@ -39,7 +39,7 @@ The nuxt.js app is based in the minimal SPA example app taken straight out of th
 
 Normally these files would not be included in the git repo (since they can be automatically produced by the development tools) but I left them in so you can take a look without having to checkout and run everything.
 
-The `nuxt.confgig.js` has been configured to output all generated frontend files in the `/app/static/spa` folder. Nuxt **still** outputs a duplicate set of files in `/nuxt/dist`, although at this point it's not as important of an issue.
+The `nuxt.config.js` has been configured to output all generated frontend files in the `/app/static/spa` folder. Nuxt **still** outputs a duplicate set of files in `/nuxt/dist`, although at this point it's not as important of an issue.
 
 # Problem
 
