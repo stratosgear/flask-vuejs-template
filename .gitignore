@@ -17,3 +17,5 @@ selenium-debug.log
 *.sln
 *security-sgps.py
 *security_backend.py
+
+/nuxt/node_modules/
